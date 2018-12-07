@@ -1,0 +1,24 @@
+{
+  "name": "mjml-gulp-browsersync-image",
+  "version": "1.0.0",
+  "description": "Mjml with gulp + browsersync + imageOptim integrations",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-image": "^4.4.1",
+    "mjml": "^4.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mjml",
+    "gulp",
+    "browsersync",
+    "image"
+  ],
+  "author": "Tomáš Šesták",
+  "license": "ISC"
+}

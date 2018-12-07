@@ -1,0 +1,78 @@
+<mjml>
+	<mj-head>
+		<!-- <mj-font name="Open Sans" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" /> -->
+		<mj-title>Hello World!</mj-title>
+		<mj-attributes>
+			<!-- Set components default values -->
+			<mj-all font-family="Open Sans, Arial, sans-serif" font-size="16px" padding="0" color="#333"/>
+			<mj-text line-height="1.6" />
+
+		</mj-attributes>
+    <mj-style>
+      @media (max-width:480px) {
+
+      }
+    </mj-style>
+    <mj-style inline="inline">
+
+    </mj-style>
+
+	</mj-head>
+	<mj-body>
+    <!-- Wrapper as gutter -->
+    <mj-wrapper background-color="#fbfbfb">
+    	<!-- Logo section -->
+	   	<mj-section>
+				<mj-column>
+					<mj-image src="img/logo.png" width="60px" padding="5px 0" alt="Logo"/>
+				</mj-column>
+	   	</mj-section>
+      <!-- Header IMG section -->
+      <mj-section>
+        <mj-column>
+          <mj-image src="img/header.jpg" alt="Header"/>
+        </mj-column>
+      </mj-section>
+      <!-- Body wrapper -->
+      <mj-wrapper padding="40px 30px">
+        <!-- Text section -->
+				<mj-section>
+					<mj-group>
+					<mj-column>
+						<mj-text font-size="32px" padding="10px 0">
+              Lorem ipsum dolor sit amet.
+            </mj-text>
+						<mj-text padding="20px 0">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni ullam illum quod inventore aut sit. Est nesciunt iusto soluta saepe.
+            </mj-text>
+					</mj-column>
+					<mj-column>
+						<mj-text font-size="32px" padding="10px 0">
+              Lorem ipsum dolor sit amet.
+            </mj-text>
+						<mj-text padding="20px 0">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni ullam illum quod inventore aut sit. Est nesciunt iusto soluta saepe.
+            </mj-text>
+					</mj-column>
+					</mj-group>
+				</mj-section>
+        <!-- CTA section -->
+				<mj-section>
+					<mj-column>
+  	         <mj-image src="img/button.png" width="200px" alt="Button" padding="10px 0"/>
+					</mj-column>
+				</mj-section>
+      </mj-wrapper>
+        <!-- Footer wrapper -->
+      <mj-wrapper background-color="#F4F4F4" padding="20px 30px">
+				<mj-section>
+					<mj-column>
+						<mj-text font-size="12px">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime velit rerum iure adipisci, quia nam, omnis libero laudantium culpa. Cupiditate.
+						</mj-text>
+					</mj-column>
+				</mj-section>
+  		</mj-wrapper>
+    </mj-wrapper>
+	</mj-body>
+</mjml>
